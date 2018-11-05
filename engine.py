@@ -178,7 +178,6 @@ def main():
 
             if item_added:
                 entities.remove(item_added)
-
                 game_state = GameStates.ENEMY_TURN
 
             if item_consumed:

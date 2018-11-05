@@ -14,12 +14,10 @@ class Inventory:
             results.append({
                 'item_added': None,
                 'message': Message('You cannot carry any more, your inventory is full', libtcod.yellow)
-
             })
-
         else:
             results.append({
-                'item added': item,
+                'item_added': item,
                 'message': Message('You pick up the {0}!'.format(item.name), libtcod.blue)
             })
 
